@@ -1,0 +1,75 @@
+import A from './chords/chordAMaj.png'
+import C from './chords/chordCMaj.png'
+import D from './chords/chordDMaj.png'
+import E from './chords/chordEMaj.png'
+import F from './chords/chordFMaj.png'
+import G from './chords/chordGMaj.png'
+import H from './chords/chordHMaj.png'
+import Amin from './chords/chordAMin.png'
+import Cmin from './chords/chordCMin.png'
+import Dmin from './chords/chordDMin.png'
+import Emin from './chords/chordEMin.png'
+import Fmin from './chords/chordFMin.png'
+import Gmin from './chords/chordGMin.png'
+import Hmin from './chords/chordHMin.png'
+import Asharp from './chords/chordAsharpMaj.png'
+import Csharp from './chords/chordCsharpMaj.png'
+import Dsharp from './chords/chordDsharpMaj.png'
+import Fsharp from './chords/chordFsharpMaj.png'
+import Gsharp from './chords/chordGsharpMaj.png'
+import Asharpmin from './chords/chordAsharpMin.png'
+import Csharpmin from './chords/chordCsharpMin.png'
+import Dsharpmin from './chords/chordDsharpMin.png'
+import Fsharpmin from './chords/chordFsharpMin.png'
+import Gsharpmin from './chords/chordGsharpMin.png'
+import Aflat from './chords/chordAflatMaj.png'
+import Dflat from './chords/chordDflatMaj.png'
+import Eflat from './chords/chordEflatMaj.png'
+import Gflat from './chords/chordGflatMaj.png'
+import Hflat from './chords/chordHflatMaj.png'
+import Aflatmin from './chords/chordAflatMin.png'
+import Dflatmin from './chords/chordDflatMin.png'
+import Eflatmin from './chords/chordEflatMin.png'
+import Gflatmin from './chords/chordGflatMin.png'
+import Hflatmin from './chords/chordHflatMin.png'
+
+
+
+const chordImgs = [
+  {name: 'AMaj', link: A},
+  {name: 'CMaj', link: C},
+  {name: 'DMaj', link: D},
+  {name: 'EMaj', link: E},
+  {name: 'FMaj', link: F},
+  {name: 'GMaj', link: G},
+  {name: 'HMaj', link: H},
+  {name: 'AMin', link: Amin},
+  {name: 'CMin', link: Cmin},
+  {name: 'DMin', link: Dmin},
+  {name: 'EMin', link: Emin},
+  {name: 'FMin', link: Fmin},
+  {name: 'GMin', link: Gmin},
+  {name: 'HMin', link: Hmin},
+  {name: 'AsharpMaj', link: Asharp},
+  {name: 'CsharpMaj', link: Csharp},
+  {name: 'DsharpMaj', link: Dsharp},
+  {name: 'FsharpMaj', link: Fsharp},
+  {name: 'GsharpMaj', link: Gsharp},
+  {name: 'AsharpMin', link: Asharpmin},
+  {name: 'CsharpMin', link: Csharpmin},
+  {name: 'DsharpMin', link: Dsharpmin},
+  {name: 'FsharpMin', link: Fsharpmin},
+  {name: 'GsharpMin', link: Gsharpmin},
+  {name: 'AflatMaj', link: Aflat},
+  {name: 'DflatMaj', link: Dflat},
+  {name: 'EflatMaj', link: Eflat},
+  {name: 'GflatMaj', link: Gflat},
+  {name: 'HflatMaj', link: Hflat},
+  {name: 'AflatMin', link: Aflatmin},
+  {name: 'DflatMin', link: Dflatmin},
+  {name: 'EflatMin', link: Eflatmin},
+  {name: 'GflatMin', link: Gflatmin},
+  {name: 'HflatMin', link: Hflatmin},
+]
+
+export default chordImgs 

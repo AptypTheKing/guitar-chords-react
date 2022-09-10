@@ -1,0 +1,55 @@
+h1 {
+  color: yellowgreen;
+  text-align: center;
+}
+
+.buttons {
+  position: relative;
+  text-align: center;
+  z-index: 9999;
+}
+
+.chords {
+  display: inline-block;
+  position: relative;
+  right: 50px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.options {
+  position: absolute;
+  top: -50%;
+  display: inline-block;
+}
+
+.showed {
+  background-color: yellowgreen;
+}
+
+@media (max-width: 500px) {
+  .btn {
+      font-size: 12px;
+      padding: 0.5px;
+      margin: 1px;
+      border: 3px solid yellowgreen;
+  }
+  .chords {
+      right: 25px
+  }
+}
+
+body {
+  position: relative;
+  background-color: #291401;
+  background-image: url('./components/images/background.jpg');
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+
+
