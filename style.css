@@ -1,0 +1,80 @@
+h1 {
+    color: yellowgreen;
+    text-align: center;
+}
+
+.buttons {
+    position: relative;
+    text-align: center;
+    z-index: 9999;
+}
+
+.chords {
+    display: inline-block;
+    position: relative;
+    right: 50px;
+    margin-left: auto;
+    text-align: center;
+}
+
+.options {
+    position: absolute;
+    top: -50%;
+    display: inline-block;
+}
+
+.btn {
+    background-color: #888a4c;
+    font-size: 48px;
+    text-align: center;
+    padding: 2px;
+    width: 2em;
+    margin: 8px;
+    border: 6px solid yellowgreen;
+    border-radius: 35%;
+}
+
+.showed {
+    background-color: yellowgreen;
+}
+
+@media (max-width: 500px) {
+    .btn {
+        font-size: 12px;
+        padding: 0.5px;
+        margin: 1px;
+        border: 3px solid yellowgreen;
+    }
+    .chords {
+        right: 25px
+    }
+}
+
+.btn:hover {
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+body {
+    position: relative;
+    background-color: #291401;
+    background-image: url('background.jpg');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.guitar {
+    z-index: 0;
+    text-align: center;
+    
+}
+
+.img-guitar {
+    width: 1400px;
+    max-width: 100%;
+}
+
+  
+
