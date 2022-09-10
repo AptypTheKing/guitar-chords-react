@@ -47,7 +47,7 @@ const ChordsAndOption = () => {
   const min = document.querySelector('#min')
 
   const addNote = (e) => {
-    let active = document.querySelector('.MyButton_showed__p9p2z')
+    let active = document.querySelector('.showed')
     if (e.target.tagName !== 'BUTTON') return
     
     if (activeNote.current == e.target) {
@@ -60,7 +60,7 @@ const ChordsAndOption = () => {
       showNote(e)
     }
     if (scale == 'Maj') {
-      maj.classList.add(cl.showed)
+      maj.classList.add(cl.showed, 'showed')
     }
     showNote(e)
     activeNote.current = e.target
@@ -70,7 +70,7 @@ const ChordsAndOption = () => {
   const addAlt = (e) => {
     if (e.target.tagName !== 'BUTTON') return
     if (activeAlt.current == e.target) {
-      e.target.classList.remove(cl.showed)
+      e.target.classList.remove(cl.showed, 'showed')
       setAlt('')
       activeAlt.current = ''
       return
@@ -89,40 +89,40 @@ const ChordsAndOption = () => {
   }
 
   const showNote = (e) => {
-    let active = document.querySelector('.MyButton_showed__p9p2z')
+    let active = document.querySelector('.showed')
     if (activeNote.current == e.target) {
-      e.target.classList.remove(cl.showed)
+      e.target.classList.remove(cl.showed, 'showed')
     }
     if (active) {
-      active.classList.remove(cl.showed)
+      active.classList.remove(cl.showed, 'showed')
     }
-    e.target.classList.add(cl.showed)
+    e.target.classList.add(cl.showed, 'showed')
   }
 
   const showScale = () => {
     if (scale == 'Maj') {
-      maj.classList.add(cl.showed)
-      min.classList.remove(cl.showed)
+      maj.classList.add(cl.showed, 'showed')
+      min.classList.remove(cl.showed, 'showed')
     } else {
-      maj.classList.remove(cl.showed)
-      min.classList.add(cl.showed)
+      maj.classList.remove(cl.showed, 'showed')
+      min.classList.add(cl.showed, 'showed')
     }
   }
 
   const showAlt = () => {
     if (alt == 'sharp') {
-      sharp.classList.add(cl.showed)
-      flat.classList.remove(cl.showed)
+      sharp.classList.add(cl.showed, 'showed')
+      flat.classList.remove(cl.showed, 'showed')
     }
     if (alt == 'flat') {
-      flat.classList.add(cl.showed)
-      sharp.classList.remove(cl.showed)
+      flat.classList.add(cl.showed, 'showed')
+      sharp.classList.remove(cl.showed, 'showed')
     }
     if (note === 'H' || note === 'E') {
-      sharp.classList.remove(cl.showed)
+      sharp.classList.remove(cl.showed, 'showed')
     }
     if (note === 'C' || note === 'F') {
-      flat.classList.remove(cl.showed)
+      flat.classList.remove(cl.showed, 'showed')
     }
   }
 
@@ -156,9 +156,9 @@ const ChordsAndOption = () => {
     if (activeChord.current) {
       activeChord.current.remove()
     }
-    let showed = document.querySelectorAll('.MyButton_showed__p9p2z')
+    let showed = document.querySelectorAll('.showed')
       for (let btn of showed) {
-        btn.classList.remove(cl.showed)
+        btn.classList.remove(cl.showed, 'showed')
       }
   }
 
