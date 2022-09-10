@@ -47,7 +47,7 @@ const ChordsAndOption = () => {
   const min = document.querySelector('#min')
 
   const addNote = (e) => {
-    let active = document.querySelector('.MyButton_showed__6mnOo')
+    let active = document.querySelector('.MyButton_showed__p9p2z')
     if (e.target.tagName !== 'BUTTON') return
     
     if (activeNote.current == e.target) {
@@ -89,7 +89,7 @@ const ChordsAndOption = () => {
   }
 
   const showNote = (e) => {
-    let active = document.querySelector('.MyButton_showed__6mnOo')
+    let active = document.querySelector('.MyButton_showed__p9p2z')
     if (activeNote.current == e.target) {
       e.target.classList.remove(cl.showed)
     }
@@ -155,11 +155,11 @@ const ChordsAndOption = () => {
   const clearChord = () => {
     if (activeChord.current) {
       activeChord.current.remove()
-      let showed = document.querySelectorAll('.MyButton_showed__6mnOo')
+    }
+    let showed = document.querySelectorAll('.MyButton_showed__p9p2z')
       for (let btn of showed) {
         btn.classList.remove(cl.showed)
       }
-    }
   }
 
   useEffect(() => {
