@@ -5,6 +5,8 @@ Here you can find basic guitar chords for begginers with demonstration on virtua
 
 ## Visual
 
+![preview](src/site-preview.png)
+
 ## Usage
 
 Just click on the button of required chord and you will see visually on guitar spots for your fingers.
