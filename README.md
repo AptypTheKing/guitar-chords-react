@@ -1,7 +1,7 @@
 # Guitar-Chords
 Interactive Guitar Chords one page site on React.
 
-[Visit the site](guitar-chords-react.netlify.app)
+[Visit the site](https://guitar-chords-react.netlify.app)
 
 Here you can find basic guitar chords for begginers with demonstration on virtual guitar.
 
